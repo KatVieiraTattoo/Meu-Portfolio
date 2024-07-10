@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu Nome - Tatuador</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff1493;
+            color: #000;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: #ff1493;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            padding: 20px;
+        }
+        .portfolio, .catalog {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .portfolio img, .catalog img {
+            max-width: 100%;
+            height: auto;
+            margin: 10px;
+            border: 2px solid #ff1493;
+        }
+        footer {
+            background-color: #333;
+            color: #ff1493;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            margin: 0 auto;
+        }
+        .contact-form input, .contact-form textarea {
+            margin: 5px 0;
+            padding: 10px;
+            border: 1px solid #ff1493;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            padding: 10px;
+            background-color: #ff1493;
+            border: none;
+            color: #000;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #ff69b4;
+        }
+        .social-links {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .social-links a {
+            color: #ff1493;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Seu Nome - Tatuador</h1>
+    </header>
+    <nav>
+        <a href="#about">Sobre Mim</a>
+        <a href="#portfolio">Portfólio</a>
+        <a href="#catalog">Catálogo</a>
+        <a href="#contact">Contato</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2>Sobre Mim</h2>
+            <p>Bem-vindo ao meu site! Sou [Seu Nome], um tatuador profissional com paixão por criar arte na pele. Aqui você encontrará informações sobre meu trabalho, portfólio e como entrar em contato comigo. Fique à vontade para explorar e conhecer mais sobre meu estilo e técnicas de tatuagem.</p>
+        </section>
+        <section id="portfolio">
+            <h2>Portfólio</h2>
+            <div class="portfolio">
+                <!-- Adicione suas imagens de tatuagens anteriores aqui -->
+                <img src="imagem1.jpg" alt="Tatuagem 1">
+                <img src="imagem2.jpg" alt="Tatuagem 2">
+                <img src="imagem3.jpg" alt="Tatuagem 3">
+            </div>
+        </section>
+        <section id="catalog">
+            <h2>Catálogo</h2>
+            <div class="catalog">
+                <!-- Adicione suas futuras artes para os clientes escolherem aqui -->
+                <img src="arte1.jpg" alt="Arte 1">
+                <img src="arte2.jpg" alt="Arte 2">
+                <img src="arte3.jpg" alt="Arte 3">
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contato</h2>
+            <div class="contact-form">
+                <input type="text" placeholder="Seu Nome" required>
+                <input type="email" placeholder="Seu Email" required>
+                <textarea placeholder="Sua Mensagem" rows="4" required></textarea>
+                <button type="submit">Enviar</button>
+            </div>
+            <div class="social-links">
+                <a href="https://www.facebook.com/seuperfil" target="_blank">Facebook</a>
+                <a href="https://www.instagram.com/seuperfil" target="_blank">Instagram</a>
+                <a href="https://wa.me/SeuNumeroDeWhatsApp" target="_blank">WhatsApp</a>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Seu Nome - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
